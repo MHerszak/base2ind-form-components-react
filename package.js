@@ -39,6 +39,6 @@ Package.onUse(function(api) {
 Package.onTest(function(api) {
   api.use('ecmascript');
   api.use('tinytest');
-  api.use('base2ind:base2ind-form-react');
+  api.use('browserstudios:form-components-react');
   api.addFiles('base2ind-form-react-tests.js');
 });

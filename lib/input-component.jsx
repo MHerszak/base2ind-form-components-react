@@ -1,4 +1,4 @@
-let InputText = React.createClass({
+let Input = React.createClass({
     getInitialState() {
         return {
             value: ''
@@ -45,4 +45,4 @@ let InputText = React.createClass({
     }
 });
 
-_.extend(FormComponents,{Form});
+_.extend(FormComponents,{Input});
